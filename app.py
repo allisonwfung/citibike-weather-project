@@ -4,7 +4,7 @@ import pandas as pd
 import altair as alt
 
 # page setup
-st.set_page_config(page_title="Citi Bike Weather Dashboard", layout="wide")
+st.set_page_config(page_title="# 🚲 NYC Citi Bike vs. Weather", layout="wide")
 st.title("Citi Bike Ridership vs. Weather")
 st.markdown("Daily temperature and rainfall impact on NYC ridership.")
 
