@@ -3,7 +3,7 @@
 **Live Dashboard:** [Insert Streamlit Link Here]
 
 ### Project Overview
-An end-to-end ELT data pipeline and interactive web application analyzing how daily temperature and rainfall metrics impact riders across New York City. This project demonstrates in-memory data ingestion, modular data transformations, and interactive data visualization.
+An end-to-end ELT data pipeline and interactive web application analyzing how daily temperature and rainfall metrics impact riders across New York City.
 
 ### Tech Stack
 * **Python:** Data extraction from APIs (Open-Meteo) and AWS S3 in-memory processing (`pandas`, `requests`, `pyarrow`).
