@@ -6,16 +6,17 @@
 An end-to-end ELT data pipeline and interactive web application analyzing how daily temperature and rainfall metrics impact riders across New York City.
 
 ### Tech Stack
-* **Python:** Data extraction from APIs (Open-Meteo) and AWS S3 in-memory processing (`pandas`, `requests`, `pyarrow`).
-* **DuckDB & Parquet:** Local analytical database engine and columnar data storage.
-* **dbt (Data Build Tool):** SQL transformations, staging models, and fact tables.
-* **Streamlit & Altair:** Interactive front-end visualization and charting.
-
+* **Core Languages:** Python (for data extraction and web application) and SQL (for data transformation).
+* **Python Libraries:** `pandas`, `requests`, and `pyarrow` for in-memory data extraction from Open-Meteo and AWS S3.
+* **Database Engine:** DuckDB
+* **dbt (Data Build Tool):** Manages the SQL transformations, staging models, and fact tables.
+* **Streamlit & Altair:** Interactive front-end visualization and charting framework.
+* 
 ### Data
 * **Citi Bike Trip Data:** Monthly trip logs extracted directly from AWS S3 via the Citi Bike public data program.
 * **Weather Data:** Historical hourly weather metrics and 24-hour predictive forecasts acquired via API calls from Open-Meteo.
 
-### Pipeline Architecture
+### Code Structure
 ```text
 ├── data/                              
 ├── bike_project/                       
