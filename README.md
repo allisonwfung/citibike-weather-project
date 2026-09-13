@@ -1,4 +1,4 @@
-# 🚲 NYC Citi Bike vs. Weather Elasticity
+# 🚲 NYC Citi Bike vs. Weather
 
 **Live Dashboard:** [Insert Streamlit Link Here]
 
