@@ -1,0 +1,11 @@
+name: "bike_project"
+version: "1.1.0"
+profile: "bike_project"
+
+model-paths: ["models"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  bike_project:
+    +materialized: table

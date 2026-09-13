@@ -1,0 +1,6 @@
+bike_project:
+  outputs:
+    dev:
+      type: duckdb
+      path: bike.duckdb
+  target: dev

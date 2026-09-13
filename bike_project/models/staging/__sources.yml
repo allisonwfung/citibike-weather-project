@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: raw_weather
+    tables:
+      - name: central_park_hourly
+        meta:
+          external_location: "../data/raw_central_park_weather.parquet"
+      - name: central_park_forecast_previous_day1
+        meta:
+          external_location: "../data/raw_forecast_previous_day1.parquet"
+      - name: central_park_noaa_daily_high
+        meta:
+          external_location: "../data/raw_noaa_daily_high.parquet"
+      - name: citibike_trips
+        meta:
+          external_location: "../data/raw_citibike_*.parquet"
