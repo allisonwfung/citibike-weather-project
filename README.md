@@ -43,3 +43,5 @@ To replicate this project locally:
    ```
    
    
+### A Quick Note on the Data
+If you look at the Python script, you'll notice it pulls three different weather datasets (historical hourly, 24-hour forecasts, and NOAA daily highs). Right now, the dashboard only uses the historical data to show how weather affects bike rides. I decided to pull the extra data anyway just for the practice of working with different API endpoints. They are saved as Parquet files in the pipeline so I can use them later when I dive into forecasting and machine learning!
