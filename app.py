@@ -5,7 +5,7 @@ import altair as alt
 
 # page setup
 st.set_page_config(page_title="# 🚲 NYC Citi Bike vs. Weather", layout="wide")
-st.title("Citi Bike Ridership vs. Weather")
+st.title("🚲 NYC Citi Bike vs. Weather")
 st.markdown("Daily temperature and rainfall impact on NYC ridership.")
 
 @st.cache_data
