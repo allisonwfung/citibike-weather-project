@@ -1,7 +1,6 @@
 # 🚲 NYC Citi Bike vs. Weather
 
-**Live Dashboard:** [Insert Streamlit Link Here]
-
+**Live Dashboard:** https://citibike-weather-project.streamlit.app/
 ### Project Overview
 An end-to-end ELT data pipeline and interactive web application analyzing how daily temperature and rainfall metrics impact riders across New York City.
 
